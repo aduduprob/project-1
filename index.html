@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Jack | Front-End & Back-End Developer</title>
+
+  <!-- Remix Icon -->
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+    rel="stylesheet"
+  >
+
+  <!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap"  rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fredoka:wght@300..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/style/style.css">
+</head>
+
+<body>
+
+	<header>
+		<nav>	
+			
+			<h3 class="nav_logo">PORTFOLIO.</h3>
+			
+			<ul class="nav__navigation-active">
+				<li>
+					<a class="first-nav-link" href="#">Home</a>
+				</li>
+				
+				<li>
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				
+				<li>
+					<a class="nav-link" href="#experience">Experience</a>
+				</li>
+				
+				<li>
+					<a class="nav-link" href="#project">Projects</a>
+				</li>
+				
+				<li>
+					<a class="nav-link" href="#contact">Contacts</a>
+				</li>
+			</ul>
+
+			<ul class="nav__sidebar">
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#project">Projects</a></li>
+				<li><a href="#contact">Contacts</a></li>
+  		</ul>
+			
+			<div class="nav__right">
+				<i class="ri-sun-line nav__sun"></i>
+				<i onclick=OpenSidebar() class="ri-menu-line hamburger"></i>			
+				<button class="nav__button">
+					<a href="#">Let's Talk</a>
+					<i class="ri-arrow-right-up-fill"></i>
+				</button>
+			</div>
+
+			
+		</nav>
+	</header>
+
+	<main>
+
+		<!-- Hero Section -->
+		<section class="hero">
+			<div class="hero__container">
+
+				<!-- Hero Left Side -->
+				<div class="hero__left-side">
+					<div class="hero_text-group">
+						<h1 class="hero__title">Hi,I'm Jack</h1>
+	  				<h2 class="hero__subtitle">Frontend Developer</h2>
+		  			<p class="hero__description">Hi! I like coding and experimenting with new ideas. For me, every line of code is a way to bring something useful and cool to the digital world.</p>
+	  			</div>
+
+					<div class="hero__button-group">
+
+						<!-- Hero Button 1 -->
+						<div class="hero__button-1">
+							
+							<div class="hero__button-bg1"></div>
+							<a class="hero__button-text1" href="#">Explore Work</a>
+		
+						</div>
+
+						<!-- Hero Button 2 -->
+						<div class="hero__button-2">
+							
+							<div class="hero__button-bg2"></div>
+							<a class="hero__button-text2" href="#">Download CV</a>
+		
+						</div>
+						
+			  	</div>
+
+					<div class="boundery-line"></div>
+					
+					<div class="hero__social">
+						
+						<div class="social__title">
+							<p class="">CONNECT</p>
+						</div>
+
+						<div class="social__boxs-group">
+	  					<button class='social-ig'>
+		  					<a href="#">
+		  						<i class="ri-instagram-line"></i>
+	  						</a>
+		  				</button>
+						
+	  					<button class='social-github'>
+		  					<a href="#">
+		  						<i class="ri-github-fill"></i>
+		  					</a>
+		  				</button>
+						
+		  				<button class='social-linkedin'>
+			  				<a href="#">
+			  					<i class="ri-linkedin-fill"></i>
+		  					</a>
+		  				</button>
+						</div>
+					</div>
+				</div>
+
+				<!-- Hero Right Side -->
+				<div class="hero__right-side">
+					
+					<div class="hero__image-group">
+						
+						<div class="hero__image">
+							<img src="assets/img/profile_picture.png" alt="Profile Picture">
+						</div>
+
+						<div class="hero__floating-group">
+							<div class="floating-1 h-float">
+								<i class="ri-time-line"></i>
+								<p>Junior Frontend developer</p>
+							</div>
+							
+							<div class="floating-2 h-float">
+								<i class="ri-code-s-slash-line"></i>
+								<p>Javascript Main Language</p>
+							</div>
+							
+							<div class="floating-3 h-float">
+								<i class="ri-mac-line"></i>
+								<p>Fullstact developer</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</section>
+
+		<div class="boundery-line"></div>
+		
+		<!-- About Section -->
+		<section class="about" id="about">
+			
+			<div class="section-upper-text">
+		  	<span class="section__subtitle">DISCOVER</span>
+	  		<h2 class="section__title">About Me</h2>
+			</div>
+			
+			<div class="about__container">
+				
+				<div class="about__wrapper">
+
+				<div class="about__image">
+					<img src="assets/img/profile_picture.png" alt="Profile Picture">
+				</div>
+
+				<div class="about__introduction">
+
+					<div class="introduction__text-group">
+
+        <div class="intro-text-group-1">
+          <h3 class="intro-text-group__title">Who Am I</h3>
+
+          <p class="intro-text-group__description">
+            I am an experienced Full Stack Developer specializing in designing
+            and developing web applications using Node.js, Express.js, Laravel,
+            React, Next.js, TypeScript, Prisma, and MySQL. I am skilled in
+            building REST APIs, integrating third-party services, and developing
+            automation systems.
+          </p>
+        </div>
+
+        <div class="intro-text-group-2">
+          <h3 class="intro-text-group__title">My Approach</h3>
+
+          <p class="intro-text-group__description">
+            I am committed to delivering efficient, maintainable, and scalable
+            solutions by following software development best practices.
+          </p>
+        </div>
+
+      </div>
+
+					<div class="about__identity">
+
+						<h3 class="identity__title">Personal Details</h3>
+
+						<div class="ident-group">
+
+							<div class="ident-name">
+                <span>NAME</span>
+                <p>Jack</p>
+               </div>
+
+              <div class="ident-located">
+                <span>PLACE OF BIRTH</span>
+                <p>Jakarta, Indonesia</p>
+              </div>
+
+              <div class="ident-phone">
+                  <span>PHONE</span>
+                  <p>+62 895600833366</p>
+							</div>
+							
+               <div class="ident-gpa">
+                  <span>GPA</span>
+                  <p>5.67</p>
+               </div>
+
+               <div class="ident-email">
+                   <span>EMAIL</span>
+                   <p>
+                     <a href="mailto:welcometojack@gmail.com">
+                jackpointstothemoon@gmail.com
+                     </a>
+                   </p>
+               </div>
+
+               <div class="ident-education">
+                    <span>EDUCATION</span>
+                    <p>Senior High School</p>
+               </div>
+							
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			</div>
+
+			<div class="text-scroll">
+
+    <!-- BARIS 1 -->
+    <div class="scroll-row scroll-left">
+
+      <!-- GROUP 1 -->
+      <div class="scroll-content">
+        <span>Hi I'm Jack</span>
+        <span>Hi I'm Jack</span>
+        <span>Hi I'm Jack</span>
+				<span>Hi I'm Jack</span>
+        <span>Hi I'm Jack</span>
+        <span>Hi I'm Jack</span>
+      </div>
+
+      <!-- GROUP 2 -->
+      <div class="scroll-content">
+        <span>Hi I'm Jack</span>
+        <span>Hi I'm Jack</span>
+        <span>Hi I'm Jack</span>
+				<span>Hi I'm Jack</span>
+        <span>Hi I'm Jack</span>
+        <span>Hi I'm Jack</span>
+      </div>
+
+    </div>
+
+
+    <!-- BARIS 2 -->
+    <div class="scroll-row scroll-right">
+
+      <!-- GROUP 1 -->
+      <div class="scroll-content">
+        <span>FullStack Web Developer</span>
+        <span>FullStack Web Developer</span>
+        <span>FullStack Web Developer</span>
+				<span>FullStack Web Developer</span>
+        <span>FullStack Web Developer</span>
+        <span>FullStack Web Developer</span>
+      </div>
+
+      <!-- GROUP 2 -->
+      <div class="scroll-content">
+        <span>FullStack Web Developer</span>
+        <span>FullStack Web Developer</span>
+        <span>FullStack Web Developer</span>
+				<span>FullStack Web Developer</span>
+        <span>FullStack Web Developer</span>
+        <span>FullStack Web Developer</span>
+      </div>
+
+    </div>
+
+			</div>
+
+			
+		</section>
+
+		<div class="boundery-line"></div>
+			
+		<!-- EXPERIENCE SECTION -->
+<section class="experience" id="experience">
+	<div class="section-upper-text">
+		<span class="section__subtitle">
+			SKILLS & TOOLS
+		</span>
+
+		<h2 class="section__title">
+			My Tech Stack
+		</h2>
+	</div>
+
+	<div class="experience__container">
+
+		<div class="experience__role-group">
+
+
+			<!-- FRONTEND -->
+
+			<div class="experience__role">
+
+				<div class="experience__role-text">
+
+					<h3 class="experience__role-title">
+						Frontend
+					</h3>
+
+					<span class="experience__role-description">
+						Frameworks and libraries for building interactive
+						user interfaces.
+					</span>
+
+				</div>
+
+
+				<div class="experience__skill-group">
+
+					<div class="experience__skill experience__skill--react">
+						<i class="ri-reactjs-line"></i>
+						<span>React.js</span>
+					</div>
+
+					<div class="experience__skill experience__skill--next">
+						<i class="ri-nextjs-line"></i>
+						<span>Next.js</span>
+					</div>
+
+					<div class="experience__skill experience__skill--tailwind">
+						<i class="ri-tailwind-css-line"></i>
+						<span>Tailwind CSS</span>
+					</div>
+
+					<div class="experience__skill experience__skill--html5">
+						<i class="ri-html5-line"></i>
+						<span>HTML5</span>
+					</div>
+
+					<div class="experience__skill experience__skill--css3">
+						<i class="ri-css3-line"></i>
+						<span>CSS3</span>
+					</div>
+
+					<div class="experience__skill experience__skill--framer">
+						<i class="ri-movie-line"></i>
+						<span>Framer Motion</span>
+					</div>
+
+				</div>
+
+			</div>
+
+
+			<!-- BACKEND -->
+
+			<div class="experience__role">
+
+				<div class="experience__role-text">
+
+					<h3 class="experience__role-title">
+						Backend
+					</h3>
+
+					<span class="experience__role-description">
+						Server-side technologies and frameworks.
+					</span>
+
+				</div>
+
+
+				<div class="experience__skill-group">
+
+					<div class="experience__skill experience__skill--node">
+						<i class="ri-nodejs-line"></i>
+						<span>Node.js</span>
+					</div>
+
+					<div class="experience__skill experience__skill--express">
+						<i class="ri-server-line"></i>
+						<span>Express.js</span>
+					</div>
+
+					<div class="experience__skill experience__skill--golang">
+						<i class="ri-code-box-line"></i>
+						<span>Go (Golang)</span>
+					</div>
+
+					<div class="experience__skill experience__skill--fiber">
+						<i class="ri-server-line"></i>
+						<span>Fiber</span>
+					</div>
+
+					<div class="experience__skill experience__skill--laravel">
+						<i class="ri-code-s-slash-line"></i>
+						<span>Laravel</span>
+					</div>
+
+				</div>
+
+			</div>
+
+
+			<!-- DATABASE & ORM -->
+
+			<div class="experience__role">
+
+				<div class="experience__role-text">
+
+					<h3 class="experience__role-title">
+						Databases & ORM
+					</h3>
+
+					<span class="experience__role-description">
+						Database management systems and Object-Relational
+						Mappers.
+					</span>
+
+				</div>
+
+
+				<div class="experience__skill-group">
+
+					<div class="experience__skill experience__skill--mysql">
+						<i class="ri-database-2-line"></i>
+						<span>MySQL</span>
+					</div>
+
+					<div class="experience__skill experience__skill--postgresql">
+						<i class="ri-database-2-line"></i>
+						<span>PostgreSQL</span>
+					</div>
+
+					<div class="experience__skill experience__skill--mangodb">
+						<i class="ri-database-2-line"></i>
+						<span>MongoDB</span>
+					</div>
+
+					<div class="experience__skill experience__skill--prisma">
+						<i class="ri-database-line"></i>
+						<span>Prisma ORM</span>
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- TOOLS & INFRASTRUCTURE -->
+
+			<div class="experience__role">
+
+				<div class="experience__role-text">
+
+					<h3 class="experience__role-title">
+						Tools & Infrastructure
+					</h3>
+
+					<span class="experience__role-description">
+						Development tools, version control, and deployment.
+					</span>
+
+				</div>
+
+
+				<div class="experience__skill-group">
+
+					<div class="experience__skill experience__skill--git">
+						<i class="ri-git-branch-line"></i>
+						<span>Git</span>
+					</div>
+
+					<div class="experience__skill experience__skill--github">
+						<i class="ri-github-line"></i>
+						<span>GitHub</span>
+					</div>
+
+					<div class="experience__skill experience__skill--docker">
+						<i class="ri-ship-line"></i>
+						<span>Docker</span>
+					</div>
+
+					<div class="experience__skill experience__skill--linux">
+						<i class="ri-terminal-box-line"></i>
+						<span>Linux</span>
+					</div>
+
+					<div class="experience__skill experience__skill--nginx">
+						<i class="ri-server-line"></i>
+						<span>Nginx</span>
+					</div>
+
+					<div class="experience__skill experience__skill--postman">
+						<i class="ri-send-plane-line"></i>
+						<span>Postman</span>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+
+		<div class="boundery-line"></div>
+
+			<!-- PROJEXT SECTION -->
+			<section class="project" id="project">
+				<div class="section-upper-text">
+
+  <span class="section__subtitle">PORTFOLIO</span>
+
+  <h2 class="section__title">Selected Works</h2>
+
+				</div>
+  <div class="project__container">
+
+		<div class="project__card-wrapper">
+    <div class="project__card-group">
+
+			<!-- Project Card 1 -->
+<article class="project__card">
+
+  <div class="project__image-wrapper">
+    <div class="project__image">
+      <img src="assets/img/profile_picture.png" alt="Profile Picture">
+
+      <div class="project__image-text">
+        <span>NEXT.JS</span>
+        <span>TAILWIND CSS</span>
+        <span>FRAMER MOTION</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project__text">
+    <h3 class="project__card-title">Jack Portfolio</h3>
+
+    <div class="project__card-description-wrapper">
+      <p class="project__card-description">
+        Developed a personal portfolio website with a modern,
+        responsive design focused on user experience to showcase
+        profile, skills, and completed projects.
+      </p>
+    </div>
+  </div>
+
+  <div class="boundery-line card-line"></div>
+
+  <div class="project__link">
+    <span>
+      <a href="#">VIEW DETAILS</a>
+    </span>
+
+    <a href="#" class="project__external-link" aria-label="View project detail">
+      <i class="ri-external-link-line"></i>
+    </a>
+  </div>
+
+  <span class="card-number">01</span>
+
+</article>
+
+
+<!-- Project Card 2 -->
+<article class="project__card">
+
+  <div class="project__image-wrapper">
+    <div class="project__image">
+      <img src="assets/img/profile_picture.png" alt="Jack Portfolio">
+
+      <div class="project__image-text">
+        <span>NEXT.JS</span>
+        <span>TAILWIND CSS</span>
+        <span>FRAMER MOTION</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project__text">
+    <h3 class="project__card-title">Jack Portfolio</h3>
+
+    <div class="project__card-description-wrapper">
+      <p class="project__card-description">
+        Developed a personal portfolio website with a modern,
+        responsive design focused on user experience to showcase
+        profile, skills, and completed projects.
+      </p>
+    </div>
+  </div>
+
+  <div class="boundery-line card-line"></div>
+
+  <div class="project__link">
+    <span>
+      <a href="#">VIEW DETAILS</a>
+    </span>
+
+    <a href="#" class="project__external-link" aria-label="View project detail">
+      <i class="ri-external-link-line"></i>
+    </a>
+  </div>
+
+  <span class="card-number">02</span>
+
+</article>
+
+
+<!-- Project Card 3 -->
+<article class="project__card">
+
+  <div class="project__image-wrapper">
+    <div class="project__image">
+      <img src="assets/img/profile_picture.png" alt="Jack Portfolio">
+
+      <div class="project__image-text">
+        <span>NEXT.JS</span>
+        <span>TAILWIND CSS</span>
+        <span>FRAMER MOTION</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project__text">
+    <h3 class="project__card-title">Jack Portfolio</h3>
+
+    <div class="project__card-description-wrapper">
+      <p class="project__card-description">
+        Developed a personal portfolio website with a modern,
+        responsive design focused on user experience to showcase
+        profile, skills, and completed projects.
+      </p>
+    </div>
+  </div>
+
+  <div class="boundery-line card-line"></div>
+
+  <div class="project__link">
+    <span>
+      <a href="#">VIEW DETAILS</a>
+    </span>
+
+    <a href="#" class="project__external-link" aria-label="View project detail">
+      <i class="ri-external-link-line"></i>
+    </a>
+  </div>
+
+  <span class="card-number">03</span>
+
+</article>
+
+    </div>
+
+			<!-- CLONE CARD -->
+			<div aria-hidden class="project__card-group">
+
+			<!-- Project Card 1 -->
+<article class="project__card">
+
+  <div class="project__image-wrapper">
+    <div class="project__image">
+      <img src="assets/img/profile_picture.png" alt="Profile Picture">
+
+      <div class="project__image-text">
+        <span>NEXT.JS</span>
+        <span>TAILWIND CSS</span>
+        <span>FRAMER MOTION</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project__text">
+    <h3 class="project__card-title">Jack Portfolio</h3>
+
+    <div class="project__card-description-wrapper">
+      <p class="project__card-description">
+        Developed a personal portfolio website with a modern,
+        responsive design focused on user experience to showcase
+        profile, skills, and completed projects.
+      </p>
+    </div>
+  </div>
+
+  <div class="boundery-line card-line"></div>
+
+  <div class="project__link">
+    <span>
+      <a href="#">VIEW DETAILS</a>
+    </span>
+
+    <a href="#" class="project__external-link" aria-label="View project detail">
+      <i class="ri-external-link-line"></i>
+    </a>
+  </div>
+
+  <span class="card-number">01</span>
+
+</article>
+
+
+<!-- Project Card 2 -->
+<article class="project__card">
+
+  <div class="project__image-wrapper">
+    <div class="project__image">
+      <img src="assets/img/profile_picture.png" alt="Jack Portfolio">
+
+      <div class="project__image-text">
+        <span>NEXT.JS</span>
+        <span>TAILWIND CSS</span>
+        <span>FRAMER MOTION</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project__text">
+    <h3 class="project__card-title">Jack Portfolio</h3>
+
+    <div class="project__card-description-wrapper">
+      <p class="project__card-description">
+        Developed a personal portfolio website with a modern,
+        responsive design focused on user experience to showcase
+        profile, skills, and completed projects.
+      </p>
+    </div>
+  </div>
+
+  <div class="boundery-line card-line"></div>
+
+  <div class="project__link">
+    <span>
+      <a href="#">VIEW DETAILS</a>
+    </span>
+
+    <a href="#" class="project__external-link" aria-label="View project detail">
+      <i class="ri-external-link-line"></i>
+    </a>
+  </div>
+
+  <span class="card-number">02</span>
+
+</article>
+
+
+<!-- Project Card 3 -->
+<article class="project__card">
+
+  <div class="project__image-wrapper">
+    <div class="project__image">
+      <img src="assets/img/profile_picture.png" alt="Jack Portfolio">
+
+      <div class="project__image-text">
+        <span>NEXT.JS</span>
+        <span>TAILWIND CSS</span>
+        <span>FRAMER MOTION</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project__text">
+    <h3 class="project__card-title">Jack Portfolio</h3>
+
+    <div class="project__card-description-wrapper">
+      <p class="project__card-description">
+        Developed a personal portfolio website with a modern,
+        responsive design focused on user experience to showcase
+        profile, skills, and completed projects.
+      </p>
+    </div>
+  </div>
+
+  <div class="boundery-line card-line"></div>
+
+  <div class="project__link">
+    <span>
+      <a href="#">VIEW DETAILS</a>
+    </span>
+
+    <a href="#" class="project__external-link" aria-label="View project detail">
+      <i class="ri-external-link-line"></i>
+    </a>
+  </div>
+
+  <span class="card-number">03</span>
+
+</article>
+
+			</div>
+			
+  	</div>
+
+    <!-- View More Button -->
+    <a href="#project" class="project__more">
+      <span>VIEW MORE PROJECT</span>
+      <i class="ri-external-link-line"></i>
+    </a>
+
+  </div>
+
+			</section>
+
+
+		<!-- =================================================
+     CONTACT SECTION
+     ================================================= -->
+<section class="contact" id="contact">
+
+	<div class="section-upper-text">
+			<span class="section__subtitle">GET IN TOUCH</span>
+			<h2 class="section__title">Contact Me</h2>
+	</div>
+
+	<div class="contact__container">
+
+		<div class="contact__wrapper">
+
+			<!-- LEFT: INFO -->
+			<div class="contact__info">
+
+				<p class="contact__info-description">
+					Have a project you'd like to discuss or just want to say hello? Send me a message and I'll respond 
+				</p>
+
+				<div class="contact__info-list">
+
+					<div class="contact__info-item">
+						<div class="contact__info-icon">
+							<i class="ri-mail-line"></i>
+						</div>
+						<div class="contact__info-text">
+							<span>EMAIL</span>
+							<p><a href="mailto:jackpointstothemoon@gmail.com">jackpointstothemoon@gmail.com</a></p>
+						</div>
+					</div>
+
+					<div class="contact__info-item">
+						<div class="contact__info-icon">
+							<i class="ri-phone-line"></i>
+						</div>
+						<div class="contact__info-text">
+							<span>PHONE</span>
+							<p><a href="tel:+62895600833366">+62 895 6008 33366</a></p>
+						</div>
+					</div>
+
+					<div class="contact__info-item">
+						<div class="contact__info-icon">
+							<i class="ri-map-pin-line"></i>
+						</div>
+						<div class="contact__info-text">
+							<span>LOCATION</span>
+							<p>Jakarta, Indonesia</p>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="boundery-line contact__divider"></div>
+
+				<div class="contact__social">
+					<span class="social__title-text">CONNECT</span>
+					<div class="social__boxs-group">
+						<button class="social-ig">
+							<a href="#"><i class="ri-instagram-line"></i></a>
+						</button>
+						<button class="social-github">
+							<a href="#"><i class="ri-github-fill"></i></a>
+						</button>
+						<button class="social-linkedin">
+							<a href="#"><i class="ri-linkedin-fill"></i></a>
+						</button>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- RIGHT: FORM -->
+			<form class="contact__form" id="contactForm">
+
+				<div class="contact__form-group">
+					<label for="name">Your Name</label>
+					<input type="text" id="name" name="name" placeholder="John Doe" required>
+				</div>
+
+				<div class="contact__form-group">
+					<label for="email">Your Email</label>
+					<input type="email" id="email" name="email" placeholder="john@example.com" required>
+				</div>
+
+				<div class="contact__form-group">
+					<label for="subject">Subject</label>
+					<input type="text" id="subject" name="subject" placeholder="Let's work together" required>
+				</div>
+
+				<div class="contact__form-group">
+					<label for="message">Message</label>
+					<textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+				</div>
+
+				<button type="submit" class="contact__submit-btn">
+					<span class="contact__submit-bg"></span>
+					<span class="contact__submit-text">
+						Send Message
+						<i class="ri-send-plane-fill"></i>
+					</span>
+				</button>
+
+				<p class="contact__form-status" id="formStatus"></p>
+
+			</form>
+
+		</div>
+
+	</div>
+
+</section>
+
+			<!-- =================================================
+     FOOTER SECTION
+     ================================================= -->
+<footer class="footer">
+
+	<div class="footer__container">
+
+		<div class="footer__top">
+
+			<!-- BRAND -->
+			<div class="footer__brand">
+				<h3 class="footer__logo">PORTFOLIO.</h3>
+				<p class="footer__brand-description">
+					Full Stack Developer who enjoys building clean, fast, and useful web applications.
+				</p>
+
+				<div class="footer__social">
+					<button class="social-ig">
+						<a href="#"><i class="ri-instagram-line"></i></a>
+					</button>
+					<button class="social-github">
+						<a href="#"><i class="ri-github-fill"></i></a>
+					</button>
+					<button class="social-linkedin">
+						<a href="#"><i class="ri-linkedin-fill"></i></a>
+					</button>
+				</div>
+			</div>
+
+			<!-- NAVIGATION -->
+			<div class="footer__links-group">
+
+				<div class="footer__links">
+					<h4 class="footer__links-title">Navigation</h4>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#project">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+
+				<div class="footer__links">
+					<h4 class="footer__links-title">Contact</h4>
+					<ul>
+						<li><a href="mailto:jackpointstothemoon@gmail.com">jackpointstothemoon@gmail.com</a></li>
+						<li><a href="tel:+62895600833366">+62 895 6008 33366</a></li>
+						<li><span>Jakarta, Indonesia</span></li>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="boundery-line footer__divider"></div>
+
+		<div class="footer__bottom">
+			<p class="footer__copyright">© <span id="footerYear">2026</span> Jack. All rights reserved.</p>
+			<p class="footer__credit">Built with care, line by line.</p>
+		</div>
+
+	</div>
+
+	<button class="footer__back-to-top" id="backToTop" aria-label="Back to top">
+		<a href="#">
+		<i class="ri-arrow-up-line"></i>
+		</a>
+	</button>
+
+</footer>
+
+
+	</main>
+
+	<script>
+		function OpenSidebar() {
+			const navigation =
+				document.querySelector('.nav__sidebar');
+
+			navigation.classList.toggle('active');
+		}
+	</script>
+	
+</body>
+</html>
